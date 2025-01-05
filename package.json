@@ -1,0 +1,25 @@
+{
+  "name": "brainrot-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/app.ts && node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "editly": "^0.14.2",
+    "etro": "^0.12.1",
+    "mime": "^4.0.6",
+    "puppeteer": "^23.11.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "lite-server": "^2.6.1"
+  },
+  "type": "module"
+}
